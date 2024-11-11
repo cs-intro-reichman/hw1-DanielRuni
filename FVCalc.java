@@ -6,7 +6,7 @@ public class FVCalc {
 		int n = Integer.parseInt (args[2]);
 		double precent = rate / 100;
 		double futureValue = currentValue * (Math.pow((1 + precent) , n));
-		System.out.println("After " + n + " years, $" + currentValue +
+		System.out.println("After " + n + " years, a $" + currentValue +
 							" saved at " + rate + "% will yield $" + (int)futureValue);
 	}
 }
